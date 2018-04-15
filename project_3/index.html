@@ -1,531 +1,618 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Brooklyn Outdoor Film Festival</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brooklyn Outdoor Film Festival</title>
 
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="assets/bootstrap-social.css">
-      <link rel="stylesheet" href="assets/stylesheet.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/bootstrap-social.css">
+  <link rel="stylesheet" href="assets/stylesheet.css">
 
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-    </head>
+</head>
 
-    <body id="homepage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="homepage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-      <!-- Navigation Bar Menu -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              </button><a class="navbar-brand" href="#homepage">Film Festival</a>
-          </div>
-          <div class="collapse navbar-collapse" id="navigationbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#news" class="text-uppercase">news</a></li>
-              <li><a href="#films" class="text-uppercase">films</a></li>
-              <li><a href="#register" class="text-uppercase">register</a></li>
-              <li class="dropdown"><a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown">follow us<span class="caret"></span></a>
-                <div class="dropdown-menu">
-                  <a href="http://www.facebook.com" class="btn btn-block btn-social btn-facebook text-capitalize"><span class="fa fa-facebook"></span>facebook</a>
-                  <a href="http://www.twitter.com" class="btn btn-block btn-social btn-twitter text-capitalize"><span class="fa fa-twitter"></span>twitter</a>
-                  <a href="http://www.instagram.com" class="btn btn-block btn-social btn-instagram text-capitalize">
-                  <span class="fa fa-instagram"></span>instagram</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Home Page -->
-      <div class="jumbotron">
-        <h1 class="text-center" id="jumbotitle">Brooklyn Outdoor Film Festival</h1>
-        <h3 class="text-center" id="jumbosub">Entertainment for All Ages</h3>
+  <!-- Navigation Bar Menu -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#homepage">Film Festival</a>
       </div>
-
-      <!-- News and Announcements -->
-      <div class="container-fluid" id="news">
-        <div class="row" id="newsrow">
-          <h2 class="text-center containertitle">News</h2><hr />
-          <!-- Image for News Section -->
-          <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-            <img src="images/news.jpg" alt="News Picture" class="img-rounded center-block img-responsive" />
-          </div>
-          <!-- Text for News -->
-          <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-            <h4 class="text-center" id="newstext">Join Us for the Summer's Greatest Film Festival in New York</h4>
-            <p>This year's film festival will be held in Brooklyn Bridge Park from August 5th through August 8th. Each day, 3 films will be displayed -starting at 6 P.M. and concluding at Midnight. </p>
-            <p>This summer's showings is bound to appeal to all different ages and preferences, as we have selected an exceptional diverse line-up that will satisfy even the most critical and picky member of your family or friends! Make sure to bring them along to enjoy a wonderful time together.</p>
-            <p>Although this event is free, tickets are limited. Don't delay and <a href="#register" id="newstoregister"><em>claim your free tickets now</a>.</em></p>
-            <form class="col-sm-offset-2 col-sm-8 col-xs-12">
-              <h4 class="text-center">Subscribe to receive the latest updates and announcements!</h4>
-              <div class="input-group" id="subscribe">
-                <input type="email" class="form-control" size="50" placeholder="Email Address" required />
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-primary">Subscribe</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+      <div class="collapse navbar-collapse" id="navigationbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#news" class="text-uppercase">news</a>
+          </li>
+          <li>
+            <a href="#films" class="text-uppercase">films</a>
+          </li>
+          <li>
+            <a href="#register" class="text-uppercase">register</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown">follow us
+              <span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              <a href="http://www.facebook.com" class="btn btn-block btn-social btn-facebook text-capitalize">
+                <span class="fa fa-facebook"></span>facebook</a>
+              <a href="http://www.twitter.com" class="btn btn-block btn-social btn-twitter text-capitalize">
+                <span class="fa fa-twitter"></span>twitter</a>
+              <a href="http://www.instagram.com" class="btn btn-block btn-social btn-instagram text-capitalize">
+                <span class="fa fa-instagram"></span>instagram</a>
+            </div>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+
+  <!-- Home Page -->
+  <div class="jumbotron">
+    <h1 class="text-center" id="jumbotitle">Brooklyn Outdoor Film Festival</h1>
+    <h3 class="text-center" id="jumbosub">Entertainment for All Ages</h3>
+  </div>
+
+  <!-- News and Announcements -->
+  <div class="container-fluid" id="news">
+    <div class="row" id="newsrow">
+      <h2 class="text-center containertitle">News</h2>
       <hr />
+      <!-- Image for News Section -->
+      <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+        <img src="images/news.jpg" alt="News Picture" class="img-rounded center-block img-responsive" />
+      </div>
+      <!-- Text for News -->
+      <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+        <h4 class="text-center" id="newstext">Join Us for the Summer's Greatest Film Festival in New York</h4>
+        <p>This year's film festival will be held in Brooklyn Bridge Park from August 5th through August 8th. Each day, 3 films
+          will be displayed -starting at 6 P.M. and concluding at Midnight. </p>
+        <p>This summer's showings is bound to appeal to all different ages and preferences, as we have selected an exceptional
+          diverse line-up that will satisfy even the most critical and picky member of your family or friends! Make sure
+          to bring them along to enjoy a wonderful time together.</p>
+        <p>Although this event is free, tickets are limited. Don't delay and
+          <a href="#register" id="newstoregister">
+            <em>claim your free tickets now</a>.</em>
+        </p>
+        <form class="col-sm-offset-2 col-sm-8 col-xs-12">
+          <h4 class="text-center">Subscribe to receive the latest updates and announcements!</h4>
+          <div class="input-group" id="subscribe">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required />
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr />
 
-      <!-- Films -->
-      <div class="container-fluid" id="films">
+  <!-- Films -->
+  <div class="container-fluid" id="films">
+    <div class="row">
+
+      <!-- August 5th -->
+      <div class="col-xs-12" id="aug5row">
+        <h3 class="text-center containertitle">August 5th Films</h3>
+        <hr />
+
+        <!-- Movie 1: Coco -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Coco</h3>
+            <p>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to
+              find his great-great-grandfather, a legendary singer.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/coco/coco.png" alt="Coco Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
+          </div>
+          <!-- Coco trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ga6RYejo6Hk" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/coco_2017" target="_blank">
+              <img src="images/coco/cocorating.png" alt="Coco Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
+              <img src="images/rtlogo.png" alt="Link to Coco in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt2380307/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Coco in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 2: Zootopia -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Zootopia</h3>
+            <p>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover
+              a conspiracy.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/zootopia/zootopia.png" alt="Zootopia Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Zootopia trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jWM0ct-OLsM" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/zootopia" target="_blank">
+              <img src="images/zootopia/zootopiarating.png" alt="Zootopia Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Zootopia in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt2948356/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Zootopia in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 3: Moana -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Moana</h3>
+            <p>In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers
+              the Ocean's call to seek out the Demigod to set things right.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/moana/moana.png" alt="Moana Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
+          </div>
+          <!-- Moana trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LKFuXETZUsI" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/moana_2016" target="_blank">
+              <img src="images/moana/moanarating.png" alt="Moana Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
+              <img src="images/rtlogo.png" alt="Link to Moana in Rotten Tomatoes rotten" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt3521164/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Moana in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- August 6th -->
+      <div class="col-xs-12" id="aug6row">
+        <h3 class="text-center containertitle">August 6th Films</h3>
+        <hr />
+
+        <!-- Movie 4: Joy -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Joy</h3>
+            <p>Joy is the story of the title character, who rose to become founder and matriarch of a powerful family business
+              dynasty.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/joy/joy.png" alt="Joy Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
+          </div>
+          <!-- Joy trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uR-2TiQVY-k" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/joy_2014" target="_blank">
+              <img src="images/joy/joyrating.png" alt="Joy Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
+              <img src="images/rtlogo.png" alt="Link to Joy in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt2446980/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Joy in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 5: Please Stand By -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Please Stand By</h3>
+            <p>A young autistic woman runs away from her caregiver in an attempt to submit her manuscript to a "Star Trek" writing
+              competition.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/pleasestandby/pleasestandby.jpg" alt="Please Stand By Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Please Stand By trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ghI4y6otpjY" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/please_stand_by_2018" target="_blank">
+              <img src="images/pleasestandby/pleasestandbyrating.png" alt="Please Stand By Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Please Stand By in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt4652650/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Please Stand By in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 6: Pitch Perfect -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Pitch Perfect</h3>
+            <p>Beca, a freshman at Barden University, is cajoled into joining The Bellas, her school's all-girls singing group.
+              Injecting some much needed energy into their repertoire, The Bellas take on their male rivals in a campus competition.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/pitchperfect/pitchperfect.jpg" alt="Pitch Perfect Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Pitch Perfect trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8dItOM6eYXY" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/pitch_perfect" target="_blank">
+              <img src="images/pitchperfect/pitchperfectrating.png" alt="Pitch Perfect Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Pitch Perfect in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt1981677/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Pitch Perfect in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- August 7th -->
+      <div class="col-xs-12" id="aug7row">
+        <h3 class="text-center containertitle">August 7th Films</h3>
+        <hr />
+
+        <!-- Movie 7: Breakfast Club -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">The Breakfast Club</h3>
+            <p>Five high school students meet in Saturday detention and discover how they have a lot more in common than they
+              thought.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/breakfastclub/breakfastclub.jpg" alt="The Breakfast Club Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Breakfast Club trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9iQOw0dHRZA" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/breakfast_club" target="_blank">
+              <img src="images/breakfastclub/breakfastclubrating.png" alt="The Breakfast Club Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to the Breakfast Club in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt0088847/" target="_blank">
+              <img src="images/imdb.png" alt="Link to the Breakfast Club in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 8: Karate Kid  -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">The Karate Kid</h3>
+            <p>Newly arrived in California from New Jersey, teenager Daniel almost immediately runs afoul of karate-trained
+              high school bullies. He is rescued by Japanese janitor Miyagi, who agrees to teach Daniel how to harness karate
+              for good instead of brutality.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/karatekid/karatekid.jpg" alt="The Karate Kid Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Karate Kid trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n7JhKCQnEqQ" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/karate_kid" target="_blank">
+              <img src="images/karatekid/karatekidrating.png" alt="The Karate Kid Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to the Karate Kid in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt00877538/" target="_blank">
+              <img src="images/imdb.png" alt="Link to the Karate Kid in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 9: Back To The Future -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Back To The Future</h3>
+            <p>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling
+              DeLorean invented by his close friend, the maverick scientist Doc Brown.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/backtothefuture/backtothefuture.jpg" alt="Back to the Future Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Back to the Future trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvsgGtivCgs" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/back_to_the_future" target="_blank">
+              <img src="images/backtothefuture/backtothefuturerating.png" alt="Back to the Future Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Back To The Future in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt0088763/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Back to the Future in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- August 8th -->
+      <div class="col-xs-12" id="aug8row">
+        <h3 class="text-center containertitle">August 8th Films</h3>
+        <hr />
+
+        <!-- Movie 10: Wonderwoman -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Wonder Woman</h3>
+            <p>An Amazon princess finds her idyllic life on an island occupied only by female warriors interrupted when a pilot
+              crash-lands nearby. After rescuing him, she learns that World War I is engulfing the planet, and vows to use
+              her superpowers to restore peace.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/wonderwoman/wonderwoman.jpg" alt="Wonder Woman Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Wonder Woman trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1Q8fG0TtVAY" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/wonder_woman_2017" target="_blank">
+              <img src="images/wonderwoman/wonderwomanrating.png" alt="Wonder Woman Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Wonder Woman in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt0451279/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Wonder Woman in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 11: Dark Knight -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">The Dark Knight</h3>
+            <p>Just as it begins to appear as if Batman, Lt. James Gordon, and District Attorney Harvey Dent are making headway
+              in their tireless battle against the criminal element, a maniacal, wisecracking fiend plunges the streets of
+              Gotham City into complete chaos.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/darkknight/darkknight.jpg" alt="The Dark Knight Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Dark Knight trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EXeTwQWrcwY" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/the_dark_knight" target="_blank">
+              <img src="images/darkknight/darkknightrating.png" alt="The Dark Knight Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to the Dark Knight in Rotten Tomatoes" class="img-rounded  img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt0468569/" target="_blank">
+              <img src="images/imdb.png" alt="Link to the Dark Knight in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Movie 12: Maze Runner -->
+        <div class="row moviecontainer">
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
+            <h3 class="text-center">Maze Runner: The Death Cure</h3>
+            <p>In the epic finale to the Maze Runner saga, Thomas leads his group to save their friends, they must break into
+              the legendary Last City, a WCKD-controlled labyrinth that may turn out to be the deadliest maze of all.</p>
+          </div>
+          <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+            <img src="images/mazerunner/mazerunner.png" alt="Pitch Perfect Movie Poster" class="img-rounded center-block img-responsive movie-poster"
+            />
+          </div>
+          <!-- Maze Runner trailer -->
+          <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Cn7zS77xU9w" allowfullscreen scrolling="no"></iframe>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <a href="https://www.rottentomatoes.com/m/maze_runner_the_death_cure" target="_blank">
+              <img src="images/mazerunner/mazerunnerrating.png" alt="Maze Runner: The Death Cure Rating" class="img-rounded img-responsive hidden-xs col-sm-12"
+              />
+              <img src="images/rtlogo.png" alt="Link to Maze Runner: The Death Cure in Rotten Tomatoes" class="img-rounded  img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+            <a href="http://www.imdb.com/title/tt4500922/" target="_blank">
+              <img src="images/imdb.png" alt="Link to Maze Runner: The Death Cure in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Register -->
+  <div class="container-fluid" id="register">
+    <div class="row" id="registerrow">
+      <h2 class="col-xs-12 text-center text-capitalize containertitle">register</h2>
+      <form class="form-group col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+        <div class="form-group">
+          <legend class="text-center text-capitalize" id="registersubtitle">Please fill out this form to claim your free tickets!</legend>
+        </div>
         <div class="row">
-
-          <!-- August 5th -->
-          <div class="col-xs-12" id="aug5row">
-            <h3 class="text-center containertitle">August 5th Films</h3>
-            <hr />
-
-            <!-- Movie 1: Coco -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Coco</h3>
-                <p>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/coco/coco.png" alt="Coco Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Coco trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ga6RYejo6Hk" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/coco_2017" target="_blank">
-                  <img src="images/coco/cocorating.png" alt="Coco Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Coco in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt2380307/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Coco in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 2: Zootopia -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Zootopia</h3>
-                <p>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/zootopia/zootopia.png" alt="Zootopia Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Zootopia trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jWM0ct-OLsM" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/zootopia" target="_blank">
-                  <img src="images/zootopia/zootopiarating.png" alt="Zootopia Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Zootopia in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt2948356/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Zootopia in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 3: Moana -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Moana</h3>
-                <p>In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/moana/moana.png" alt="Moana Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Moana trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LKFuXETZUsI" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/moana_2016" target="_blank">
-                  <img src="images/moana/moanarating.png" alt="Moana Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Moana in Rotten Tomatoes rotten" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt3521164/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Moana in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- August 6th -->
-          <div class="col-xs-12" id="aug6row">
-            <h3 class="text-center containertitle">August 6th Films</h3>
-            <hr />
-
-            <!-- Movie 4: Joy -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Joy</h3>
-                <p>Joy is the story of the title character, who rose to become founder and matriarch of a powerful family business dynasty.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/joy/joy.png" alt="Joy Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Joy trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uR-2TiQVY-k" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/joy_2014" target="_blank">
-                  <img src="images/joy/joyrating.png" alt="Joy Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Joy in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt2446980/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Joy in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 5: Please Stand By -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Please Stand By</h3>
-                <p>A young autistic woman runs away from her caregiver in an attempt to submit her manuscript to a "Star Trek" writing competition.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/pleasestandby/pleasestandby.jpg" alt="Please Stand By Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Please Stand By trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ghI4y6otpjY" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/please_stand_by_2018" target="_blank">
-                  <img src="images/pleasestandby/pleasestandbyrating.png" alt="Please Stand By Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Please Stand By in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt4652650/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Please Stand By in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 6: Pitch Perfect -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Pitch Perfect</h3>
-                <p>Beca, a freshman at Barden University, is cajoled into joining The Bellas, her school's all-girls singing group. Injecting some much needed energy into their repertoire, The Bellas take on their male rivals in a campus competition.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/pitchperfect/pitchperfect.jpg" alt="Pitch Perfect Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Pitch Perfect trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8dItOM6eYXY"  allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/pitch_perfect" target="_blank">
-                  <img src="images/pitchperfect/pitchperfectrating.png" alt="Pitch Perfect Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Pitch Perfect in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt1981677/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Pitch Perfect in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- August 7th -->
-          <div class="col-xs-12" id="aug7row">
-            <h3 class="text-center containertitle">August 7th Films</h3>
-            <hr />
-
-            <!-- Movie 7: Breakfast Club -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">The Breakfast Club</h3>
-                <p>Five high school students meet in Saturday detention and discover how they have a lot more in common than they thought.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/breakfastclub/breakfastclub.jpg" alt="The Breakfast Club Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Breakfast Club trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9iQOw0dHRZA" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/breakfast_club" target="_blank">
-                  <img src="images/breakfastclub/breakfastclubrating.png" alt="The Breakfast Club Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to the Breakfast Club in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt0088847/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to the Breakfast Club in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 8: Karate Kid  -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">The Karate Kid</h3>
-                <p>Newly arrived in California from New Jersey, teenager Daniel almost immediately runs afoul of karate-trained high school bullies. He is rescued by Japanese janitor Miyagi, who agrees to teach Daniel how to harness karate for good instead of brutality.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/karatekid/karatekid.jpg" alt="The Karate Kid Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Karate Kid trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n7JhKCQnEqQ" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/karate_kid" target="_blank">
-                  <img src="images/karatekid/karatekidrating.png" alt="The Karate Kid Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to the Karate Kid in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt00877538/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to the Karate Kid in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 9: Back To The Future -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Back To The Future</h3>
-                <p>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/backtothefuture/backtothefuture.jpg" alt="Back to the Future Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Back to the Future trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvsgGtivCgs"  allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/back_to_the_future" target="_blank">
-                  <img src="images/backtothefuture/backtothefuturerating.png" alt="Back to the Future Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Back To The Future in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt0088763/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Back to the Future in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- August 8th -->
-          <div class="col-xs-12" id="aug8row">
-            <h3 class="text-center containertitle">August 8th Films</h3>
-            <hr />
-
-            <!-- Movie 10: Wonderwoman -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Wonder Woman</h3>
-                <p>An Amazon princess finds her idyllic life on an island occupied only by female warriors interrupted when a pilot crash-lands nearby. After rescuing him, she learns that World War I is engulfing the planet, and vows to use her superpowers to restore peace.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/wonderwoman/wonderwoman.jpg" alt="Wonder Woman Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Wonder Woman trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1Q8fG0TtVAY" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/wonder_woman_2017" target="_blank">
-                  <img src="images/wonderwoman/wonderwomanrating.png" alt="Wonder Woman Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Wonder Woman in Rotten Tomatoes" class="img-rounded img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt0451279/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Wonder Woman in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 11: Dark Knight -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">The Dark Knight</h3>
-                <p>Just as it begins to appear as if Batman, Lt. James Gordon, and District Attorney Harvey Dent are making headway in their tireless battle against the criminal element, a maniacal, wisecracking fiend plunges the streets of Gotham City into complete chaos.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/darkknight/darkknight.jpg" alt="The Dark Knight Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Dark Knight trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EXeTwQWrcwY" allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/the_dark_knight" target="_blank">
-                  <img src="images/darkknight/darkknightrating.png" alt="The Dark Knight Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to the Dark Knight in Rotten Tomatoes" class="img-rounded  img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt0468569/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to the Dark Knight in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
-            </div>
-            <hr />
-
-            <!-- Movie 12: Maze Runner -->
-            <div class="row moviecontainer">
-              <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-container">
-                <h3 class="text-center">Maze Runner: The Death Cure</h3>
-                <p>In the epic finale to the Maze Runner saga, Thomas leads his group to save their friends, they must break into the legendary Last City, a WCKD-controlled labyrinth that may turn out to be the deadliest maze of all.</p>
-              </div>
-              <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
-                <img src="images/mazerunner/mazerunner.png" alt="Pitch Perfect Movie Poster" class="img-rounded center-block img-responsive movie-poster" />
-              </div>
-              <!-- Maze Runner trailer -->
-              <div class="col-md-6 col-sm-offset-0 col-sm-9 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Cn7zS77xU9w"  allowfullscreen scrolling="no"></iframe>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="https://www.rottentomatoes.com/m/maze_runner_the_death_cure" target="_blank">
-                  <img src="images/mazerunner/mazerunnerrating.png" alt="Maze Runner: The Death Cure Rating" class="img-rounded img-responsive hidden-xs col-sm-12" />
-                  <img src="images/rtlogo.png" alt="Link to Maze Runner: The Death Cure in Rotten Tomatoes" class="img-rounded  img-responsive rotten col-xs-offset-1 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-                <a href="http://www.imdb.com/title/tt4500922/" target="_blank">
-                  <img src="images/imdb.png" alt="Link to Maze Runner: The Death Cure in IMDb" class="img-rounded img-responsive col-xs-offset-0 col-xs-5 col-sm-offset-0 col-sm-12" />
-                </a>
-              </div>
+          <div class="form-group">
+            <label for="select" class="col-sm-12 control-label">Date : </label>
+            <div class="col-sm-12">
+              <select id="date" class="form-control">
+                <option>August 5th</option>
+                <option>August 6th</option>
+                <option>August 7th</option>
+                <option>August 8th</option>
+              </select>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Register -->
-      <div class="container-fluid" id="register">
-        <div class="row" id="registerrow">
-          <h2 class="col-xs-12 text-center text-capitalize containertitle">register</h2>
-          <form class="form-group col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-            <div class="form-group">
-              <legend class="text-center text-capitalize" id="registersubtitle">Please fill out this form to claim your free tickets!</legend>
+        <br />
+        <div class="row">
+          <div class="form-group">
+            <label for="name" class="col-sm-12"> Full Name : </label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder=" Full Name" required="required">
             </div>
-            <div class="row">
-              <div class="form-group">
-                <label for="select" class="col-sm-12 control-label">Date : </label>
-                <div class="col-sm-12">
-                  <select id="date" class="form-control">
-                    <option>August 5th</option>
-                    <option>August 6th</option>
-                    <option>August 7th</option>
-                    <option>August 8th</option>
-                  </select>
-                </div>
-              </div>
-            </div><br />
-            <div class="row">
-              <div class="form-group">
-                <label for="name" class="col-sm-12"> Full Name : </label>
-                <div class="col-sm-12">
-                  <input type="text" class="form-control" id="name" placeholder=" Full Name" required="required">
-                </div>
-              </div>
-            </div><br />
-            <div class="row">
-              <div class="form-group">
-                <label for="email" class="col-sm-12">E-mail Address : </label>
-                <div class="col-sm-12">
-                  <input type="email" class="form-control" id="email" placeholder="Email Adress" required="required">
-                </div>
-              </div>
-            </div><br />
-            <div class="row">
-              <div class="form-group">
-                <label for="partytotal" class="col-sm-12">Number of Tickets Needed : </label>
-                <div class="col-sm-12">
-                  <input type="text" class="form-control" id="partytotal" required="required" placeholder="How many people will be attending?" >
-                </div>
-              </div>
-            </div><br />
-            <div class="row">
-              <div class="col-sm-12 form-group text-center">
-                <button class="btn btn-success btn-large" type="submit">Submit</button>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
-      </div>
+        <br />
+        <div class="row">
+          <div class="form-group">
+            <label for="email" class="col-sm-12">E-mail Address : </label>
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="Email Adress" required="required">
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="form-group">
+            <label for="partytotal" class="col-sm-12">Number of Tickets Needed : </label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="partytotal" required="required" placeholder="How many people will be attending?">
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-12 form-group text-center">
+            <button class="btn btn-success btn-large" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
-      <!-- Footer -->
-      <footer class="container-fluid text-center">
-        <a href="#homepage" title="Navigate To Top">
-          <span class="glyphicon glyphicon-chevron-up" id="arrowup"></span>
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+    <a href="#homepage" title="Navigate To Top">
+      <span class="glyphicon glyphicon-chevron-up" id="arrowup"></span>
+    </a>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-0 col-xs-offset-3 col-xs-6 text-uppercase list-group" id="footermenu">
+        <a href="#homepage" class="list-group-item flink">home</a>
+        <a href="#news" class="list-group-item flink">news</a>
+        <a href="#films" class="list-group-item flink">films</a>
+        <a href="#register" class="list-group-item flink">register</a>
+      </div>
+      <div class="col-md-offset-1 col-md-2 col-sm-3 col-sm-offset-0 col-xs-6">
+        <a href="http://www.brooklyn-usa.org/brooklyn-event-1/">
+          <img src="images/seal.png" alt="Brooklyn City Seal" class="img-rounded center-block" id="seal" />
         </a>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-0 col-xs-offset-3 col-xs-6 text-uppercase list-group" id="footermenu">
-            <a href="#homepage" class="list-group-item flink">home</a>
-            <a href="#news" class="list-group-item flink">news</a>
-            <a href="#films" class="list-group-item flink">films</a>
-            <a href="#register" class="list-group-item flink">register</a>
-          </div>
-          <div class="col-md-offset-1 col-md-2 col-sm-3 col-sm-offset-0 col-xs-6">
-            <a href="http://www.brooklyn-usa.org/brooklyn-event-1/">
-              <img src="images/seal.png" alt="Brooklyn City Seal" class="img-rounded center-block" id="seal" />
-            </a>
-          </div>
-          <div class="col-md-offset-1 col-md-2 col-sm-3 col-sm-offset-0 col-xs-6">
-            <a href="http://www.brooklynbridgepark.org">
-              <img src="images/parklogo.png" alt="Brooklyn Bridge Park Website Logo" class="img-rounded center-block" id="bridgelogo" />
-            </a>
-          </div>
-          <ul class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-12">
-            <a href="http://www.twitter.com" class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
-            <a href="http://www.instagram.com" class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a>
-            <a href="http://www.facebook.com" class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
-          </ul>
-        </div>
-      </footer>
+      </div>
+      <div class="col-md-offset-1 col-md-2 col-sm-3 col-sm-offset-0 col-xs-6">
+        <a href="http://www.brooklynbridgepark.org">
+          <img src="images/parklogo.png" alt="Brooklyn Bridge Park Website Logo" class="img-rounded center-block" id="bridgelogo" />
+        </a>
+      </div>
+      <ul class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-12">
+        <a href="http://www.twitter.com" class="btn btn-social-icon btn-lg btn-twitter">
+          <span class="fa fa-twitter"></span>
+        </a>
+        <a href="http://www.instagram.com" class="btn btn-social-icon btn-lg btn-instagram">
+          <span class="fa fa-instagram"></span>
+        </a>
+        <a href="http://www.facebook.com" class="btn btn-social-icon btn-lg btn-facebook">
+          <span class="fa fa-facebook"></span>
+        </a>
+      </ul>
+    </div>
+  </footer>
 
-      <!-- jQuery/JS -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- jQuery/JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    </body>
-  </html>
+</body>
+
+</html>
